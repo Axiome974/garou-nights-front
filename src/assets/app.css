@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.frijole-regular {
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwill';
+  src:  url('./fonts/rockwill/Rockwill.otf') format('opentype'),
+        url('./fonts/rockwill/Rockwill.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TheHallow';
+  src:  url('./fonts/the_hallow/The_Hallow.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FaceOfYourFear';
+  src:  url('src/assets/fonts/face_of_fear/face_of_fear.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ScreamAgain';
+  src:  url('fonts/scream_again/scream_again.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GloomyThings';
+  src:  url('fonts/gloomy_things/GloomyThings.otf') format('opentype'),
+        url('fonts/gloomy_things/GloomyThings.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.main-container{
+  width: 100dvw;
+  min-height: 100dvh;
+}
+
+
